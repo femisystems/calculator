@@ -55,6 +55,8 @@ class ViewController: UIViewController {
                 result = first * second
             case "/":
                 result = first / second
+            case "%":
+                result = first / 100.0
             default:
                 break
         }
